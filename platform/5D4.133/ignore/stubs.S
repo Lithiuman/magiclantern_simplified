@@ -143,7 +143,7 @@ THUMB_FN(0xfe6e71cc,  ShootOlcApp_handler)                  // this should be ac
 //THUMB_FN(0x????????,  GUI_SetRollingPitchingLevelStatus)    // JC-C RequestRollingPitching - no side effects :)
 
 /** Engio **/
-ARM32_FN(0xFE4DFDF8, _engio_write)
+//ARM32_FN(0xFE4DFDF8, _engio_write)
 //NSTUB(0x????????, _EngDrvOut)                               // AJ_EngDrvOut_1xVar_to_ShadowStruct
 //NSTUB(0x????????,  shamem_read)                             // AJ_0x_engio_struct_n_R0_manipulation_to_get_ptr
 
@@ -243,9 +243,9 @@ THUMB_FN(     0x2C6,  take_semaphore)
 
 /** Misc **/
 //THUMB_FN(0x00000000,  LCD_Palette)
-THUMB_FN(0xfe4da384,  fsuDecodePartitionTable)
-THUMB_FN(0xfe3a2d60,  SetCFnData)
-THUMB_FN(0xfe4da384,  GetCFnData)
+//THUMB_FN(0x????????,  FSUunMountDevice)
+//THUMB_FN(0xfe3a2d60,  SetCFnData)
+//THUMB_FN(0xfe4da384,  GetCFnData)
 THUMB_FN(0xfe5f3d62,  LoadCalendarFromRTC)
 THUMB_FN(0xfe966068,  vsnprintf)
 THUMB_FN(0xfe484d7c,  uart_printf)
